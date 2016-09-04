@@ -18,4 +18,5 @@ git checkout -b master
 git reset --hard $rev2
 
 # Push the changes to GitHub
-git push origin master
+git remote add deployment git@github.com:kraenhansen/kraenhansen.github.io.git
+git push deployment master

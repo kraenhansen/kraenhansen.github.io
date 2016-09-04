@@ -2,5 +2,7 @@ language: node_js
 branches:
   only:
   - development
+before_install:
+  - openssl aes-256-cbc -K $encrypted_b8320cd50150_key -iv $encrypted_b8320cd50150_iv -in github_deploy_key.enc -out github_deploy_key -d
 after_success:
   - bash deploy.sh

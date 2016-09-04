@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "My online portfolio",
   "scripts": {
+    "install": "gulp",
+    "start": "gulp",
     "test": "echo \"No test specified\" && exit 0"
   },
   "repository": {
@@ -14,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/kraenhansen/kraenhansen.github.io/issues"
   },
-  "homepage": "http://gh.kraenhansen.dk/"
+  "homepage": "http://gh.kraenhansen.dk/",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.9",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }

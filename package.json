@@ -1,0 +1,18 @@
+{
+  "name": "kraenhansen.github.io",
+  "version": "0.1.0",
+  "description": "My online portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kraenhansen/kraenhansen.github.io.git"
+  },
+  "author": "Kræn Hansen <mail@kraenhansen.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kraenhansen/kraenhansen.github.io/issues"
+  },
+  "homepage": "http://gh.kraenhansen.dk/"
+}

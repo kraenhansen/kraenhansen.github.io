@@ -1,6 +1,9 @@
 #!/bin/bash
 set -o errexit -o nounset
 
+git config user.email "mail@kraenhansen.dk"
+git config user.name "Kræn Hansen (via Travis)"
+
 # Remember the original revision
 rev=$(git rev-parse HEAD)
 echo "Deploying $rev"

@@ -15,8 +15,10 @@ rev2=$(git rev-parse HEAD)
 # Reset the master branch to the new committed changes
 echo "Resetting master to $rev2"
 git fetch
+git remote -v
+git branch
 git checkout master
-git reset --hard $rev2
+#git reset --hard $rev2
 
 # Push the changes to GitHub
-git push origin master
+#git push origin master

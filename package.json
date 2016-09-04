@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "My online portfolio",
   "scripts": {
-    "install": "gulp",
+    "install": "gulp build",
     "start": "gulp",
     "test": "echo \"No test specified\" && exit 0"
   },

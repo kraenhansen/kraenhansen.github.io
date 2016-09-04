@@ -14,6 +14,7 @@ rev2=$(git rev-parse HEAD)
 
 # Reset the master branch to the new committed changes
 echo "Resetting master to $rev2"
+git fetch
 git checkout master
 git reset --hard $rev2
 

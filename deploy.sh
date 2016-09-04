@@ -19,4 +19,4 @@ git reset --hard $rev2
 
 # Push the changes to GitHub
 git remote add deployment git@github.com:kraenhansen/kraenhansen.github.io.git
-git push deployment master
+git push -f deployment master

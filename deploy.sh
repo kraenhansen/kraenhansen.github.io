@@ -9,7 +9,8 @@ rev=$(git rev-parse HEAD)
 echo "Deploying $rev"
 
 # Commit the change effects of the build
-git commit -a -m "Build $rev" --allow-empty
+git add build/* -f
+git commit -m "Build $rev" --allow-empty
 rev2=$(git rev-parse HEAD)
 
 # Reset the master branch to the new committed changes

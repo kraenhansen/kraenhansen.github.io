@@ -19,8 +19,9 @@ a {
   text-decoration: inherit;
   color: hsl(0, 0%, 90%);
 }
-a:hover {
+a:hover, a:focus {
   text-decoration: wavy underline;
+  outline: 0;
 }
 
 body {
@@ -52,6 +53,6 @@ svg {
   vertical-align: middle;
 }
 
-a:not(:hover) svg {
+a:not(:hover,:focus) svg {
   filter: grayscale(100%);
 }

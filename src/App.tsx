@@ -10,7 +10,7 @@ function App() {
         I'm a Software Engineer from Denmark 🇩🇰
       </p>
       <p>
-        You can find me on <a href="https://x.com/kraenhansen" target="_blank">𝕏</a>, <a href="https://threads.net/@kraenhansen" target="_blank">Threads</a>, <a href="https://linkedin.com/in/kraenhansen" target="_blank">LinkedIn</a> and <a href="https://github.com/kraenhansen" target="_blank">GitHub</a>
+        You can find me on <a href="https://bsky.app/profile/kraenhansen.dk" target="_blank">🦋</a>, <a href="https://linkedin.com/in/kraenhansen" target="_blank">LinkedIn</a> and <a href="https://github.com/kraenhansen" target="_blank">GitHub</a>
       </p>
     </>
   )

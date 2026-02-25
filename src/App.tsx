@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <h1>Hi 👋 I'm Kræn</h1>
-      <p>I'm a Software Engineer from Denmark 🇩🇰</p>
+      <p>Software Engineer from Denmark 🇩🇰</p>
       <p>
-        You can find me on{" "}
+        Find me on{" "}
         <a href="https://bsky.app/profile/kraenhansen.dk" target="_blank">
           Bluesky <BlueskyLogo />
         </a>
